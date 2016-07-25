@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  /*background: url('images/background.png') #edeff0;*/
+  background: url('../svgs/background.svg') #edeff0;
+  background-size: 53px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+/** LOGO **/
+#Layer_1 {
+  width: 140px;
+  height: 120px;
+  margin: auto;
+  transition: .9s ease-out;
+}
+
+.h-text-logo {
+    opacity: 0;
+    width: 0%;
+    margin: 0;
+    height: 0;
+  }
+/** NAV **/
+
+ul, menu, dir {
+    -webkit-padding-start: 0;
+}
+
+#home,
+#visit-us,
+#contact {
+  width: 18px;
+  height: 18px;
+}
+
+.stnHome,
+.stnVisitUs,
+.stnContact {
+  fill:#39ADD1;
+  transition: .4s ease-out;
+  stroke: #52595F;
+}
+
+.stnHome:hover,
+.stnVisitUs:hover,
+.stnContact:hover {
+  fill: #F4C6A6;
+  stroke-width: 2.2;
+}
+
+/** NAV **/
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+  }
+  a:hover {
+    color: #F4C6A6;
+  }
+
+header {
+  padding-top: 10px;
+}
+  header nav {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    width: 21.4%;
+  }
+  header h1 {
+    line-height: 1em;
+  }
+
+main {
+  padding-top: 50px;
+}
+  main h2 {
+  font-size: 28px;
+}
+  main ul {
+    padding: 0;
+  }
+    main li {
+      width: 180px;
+      display: inline-block;
+      color: #ba8058;
+      margin-right: 20px;
+    }
+      main li img {
+        margin-bottom: 15px;
+      }
+      main li span {
+        margin-left: -40px;
+      }
+      main li:last-child {
+        margin-right: 0;
+      }
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+/**** SVGS COLORS ****/
+/**** LOGO ****/
+.st2Logo {
+  fill: #F4C6A6;
+}
+
+.st0 {
+    fill: #BA8058;
+}
+
+.logo-text {
+  fill: #EAAA7F;
+}
+
+/**** LOGO ****/
+
+/**** RED DOG ****/
+.st2EyesNose {
+  fill: #2D3339;
+}
+
+.st1WhiteCircle {
+  fill: #FBFEFF;
+}
+
+.st3EyeBrowLight {
+  fill: #F4C6A6;
+}
+
+/**** RED DOG ****/
+
+/**** FAWN DOG ****/
+.st0FawnSkin {
+  fill: #EAAA7F;
+}
+/**** FAWN DOG ****/
+
+/**** SABLE DOG ****/
+.st0SableSkin {
+  fill: #844B24;
+}
+
+.st3EyeBrowDark {
+  fill: #BA8058;
+}
+
+/**** SABLE DOG ****/
+
+/**** BLACK-TAN DOG ****/
+.st1BlackTan {
+  fill:#52595F;
+}
+
+.st2WhiteCircle {
+  fill: #FBFEFF;
+}
+
+/**** BLACK-TAN DOG ****/
+
+/**** SVGS COLORS ****/
+/***** TEST ******/
+#fDogRed,
+#sDogFawn,
+#tDogSable,
+#fDogBlack {
+  width: 100%;
+}
+
+/***** MEDIA QUERIES ****/
+@media (max-width: 420px) {
+
+   header nav ul li {
+    display: inline-block;
+    margin-right: 0;
+    width: 32%;
+  }
+
+  .logo-text {
+    opacity: 0;
+  }
+
+  .h-text-logo {
+      opacity: 1;
+      font-size: .75em;
+      color: #EAAA7F;
+      text-transform: uppercase;
+      border: 2px solid;
+      border-radius: 30%;
+      width: 85px;
+      margin: auto;
+      margin-bottom: 5px;
+      padding: 2px;
+      padding-top: 9px;
+      height: 32px;
+  }
+
+  /** LOGO **/
+
+/** NAV **/
+  main li {
+    width: 170px;
+  }
+
+ /* header nav {
+    -moz-text-align-last: left;
+  }*/
+}
+
+/***** MEDIA QUERIES ****/
+
+/********** BROWSER VERSIONS **********/
+/* IE : VERSION: 11.0.9600.17959 */
+/* Firefox: VERSION 45.0.2; */
+/* Google Chrome: VERSION 50.0.2661.75 m */
+/********** BROWSER VERSIONS **********/
+
+
